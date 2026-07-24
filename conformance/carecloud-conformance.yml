@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://carecloud.com/connector/ ; https://carecloud.com/hipaa-compliant-cloud-storage/ ; carecloud.com EHR Drummond + Surescripts certification badges
+standards:
+- id: fhir
+  conforms: true
+  evidence: CareCloud Connector documents FHIR data exchange/transformation (https://carecloud.com/connector/)
+- id: ccda
+  conforms: true
+  evidence: CareCloud Connector documents C-CDA conversion (https://carecloud.com/connector/)
+- id: onc-health-it-certification
+  conforms: true
+  evidence: Drummond-certified ONC Health IT (Drummond Cert badge on carecloud.com EHR pages)
+- id: surescripts
+  conforms: true
+  evidence: Surescripts-certified badge on carecloud.com (e-prescribing network certification)
+- id: hipaa
+  conforms: true
+  evidence: HIPAA-compliant cloud storage / compliance content published (https://carecloud.com/hipaa-compliant-cloud-storage/)
+- id: oauth2
+  conforms: unknown
+  evidence: developer.carecloud.com is an AWS API Gateway generated developer portal (SigV4 client); auth scheme not published in crawlable form

@@ -1,8 +1,15 @@
 aid: carecloud
 name: Carecloud
-description: 'Carecloud is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CareCloud (NASDAQ: CCLD, formerly MTBC) is a cloud-based healthcare
+  technology company serving 45,000+ providers with an integrated platform spanning
+  electronic health records (EHR), practice management, revenue cycle management (RCM),
+  patient experience tools, and AI-driven clinical documentation (cirrusAI). Its
+  Connector product delivers healthcare interoperability with FHIR and C-CDA data
+  exchange across labs, EHRs, immunization registries, and diagnostics. CareCloud is
+  Drummond-certified ONC Health IT and Surescripts-certified, publishes HIPAA
+  compliance content, and operates a developer portal (AWS API Gateway) at
+  developer.carecloud.com. Surfaced as a portfolio company of Norwest Venture
+  Partners and enriched in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/carecloud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,33 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://carecloud.com/wp-content/uploads/2025/03/carecloudlogoBlue-01.svg
 tags:
 - Company
-- Unknown
+- Healthcare
+- Health IT
+- Electronic Health Records
+- EHR
+- Revenue Cycle Management
+- Practice Management
+- Interoperability
+- FHIR
+- Medical Billing
+- Telehealth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://carecloud.com
+- type: DeveloperPortal
+  url: https://developer.carecloud.com/
+- type: Documentation
+  url: https://developer.carecloud.com/
+- type: Blog
+  url: https://carecloud.com/continuum/
+- type: Support
+  url: https://carecloud.com/contact-us/
+- type: SignUp
+  url: https://carecloud.com/schedule-demo/
+- type: Login
+  url: https://secure2.talkehr.com/StagingAccount/SecureLogin
+- type: PrivacyPolicy
+  url: https://carecloud.com/privacy-policy/
+- type: Compliance
+  url: https://carecloud.com/hipaa-compliant-cloud-storage/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/carecloud/
+- type: Conformance
+  url: conformance/carecloud-conformance.yml
+- type: DomainSecurity
+  url: security/carecloud-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
